@@ -22,7 +22,7 @@ header h1 {
 	font-size: 150%;
 }
 .shadow {
-	text-shadow: #800000;
+	text-shadow: 2px 2px #800000;
 }
 /* the styles for the section */
 main {
@@ -45,6 +45,15 @@ main h2 {
 main h3 {
 	font-size: 105%;
 }
+.normal {
+	color: black;
+	font-size: 75%;
+}
+.normala {
+	font-size: 75%;
+}
+/* Changes the text to italic when the link is focused,
+   or the mouse hovers over the link */
 a:focus, a:hover {
 	font-style: italic;
 }
